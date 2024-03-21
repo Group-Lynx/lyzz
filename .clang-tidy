@@ -7,6 +7,10 @@ Checks: '
   
   misc-*,
 
+  google-build-using-namespace,
+
+  llvm-header-guard,
+
   readability-avoid-const-params-in-decls,
   readability-avoid-nested-conditional-operator,
   readability-avoid-return-with-void-value,
