@@ -9,11 +9,14 @@ set(CMAKE_BUILD_TYPE Release)
 # dependencies
 set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} ${CMAKE_BINARY_DIR})
 
+# source
+file(GLOB SOURCES "src/*.cpp")
+
 # include
 include_directories(incl)
 
 # binary
-add_executable(${PROJECT_NAME} src/main.cpp)
+add_executable(${PROJECT_NAME} ${SOURCES})
 
 # dep: spdlog
 find_package(spdlog REQUIRED)
