@@ -7,8 +7,6 @@ Checks: '
   
   misc-*,
 
-  google-build-using-namespace,
-
   llvm-header-guard,
 
   readability-avoid-const-params-in-decls,
@@ -59,6 +57,7 @@ Checks: '
   readability-use-anyofallof,
   readability-use-std-min-max,
 '
+# google-build-using-namespace,
 # modernize-*,
 
 CheckOptions:
