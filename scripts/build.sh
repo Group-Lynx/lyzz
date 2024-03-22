@@ -45,7 +45,6 @@ fi
 
 # actual prepare commands
 if "$prepare_flag" || "$fresh_flag"; then
-    # conan install . --output-folder=build --build=missing
     cmake -S . -B build
 fi
 
